@@ -30,7 +30,9 @@ Workﬂow Pipeline:
 ## Future Work
 
 1.) Improving on communicating my results
+
 2.) Improve on clarity of my work
+
 3.) Learn and integrate some form of entity sentimental anlaysis 
 
 
