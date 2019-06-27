@@ -7,7 +7,7 @@ Originally, I was curious about NLP work and wanted to further deepen my underst
 
 Thus, the main two methodologies were NLP and LDA Topic Modeling. 
 
-Key Technologies Used:
+#### Key Technologies Used:
 
 • Spacy (NLP library for Python)
 
@@ -21,7 +21,7 @@ Key Technologies Used:
 
 • Tableau (Visualization Software)
 
-Workﬂow Pipeline:
+#### Workﬂow Pipeline:
 1. Deployed a web-scraper to gather articles from various news outlets.
 2. Text Pre-Processing
     1. Tokenization (Spacy)
