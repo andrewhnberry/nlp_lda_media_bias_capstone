@@ -8,11 +8,17 @@ Originally, I was curious about NLP work and wanted to further deepen my underst
 Thus, the main two methodologies were NLP and LDA Topic Modeling. 
 
 Key Technologies Used:
+
 • Spacy (NLP library for Python)
+
 • NLTK (NLP library for Python)
+
 • Gensim (NLP library for Python, used this mainly for LDA topic Modeling)
+
 • TextBlob (NLP library for Python)
+
 • plyDavis (Python Visualization library)
+
 • Tableau (Visualization Software)
 
 Workﬂow Pipeline:
