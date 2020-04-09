@@ -1,5 +1,7 @@
+#SCRAPER IS BROKEN #Worked before
+
 # Scraping Articles using newspaper3k package
-# Site could be found here: https://newspaper.readthedocs.io/en/latest/
+# Documentation could be found here: https://newspaper.readthedocs.io/en/latest/
 
 # Disclaimer:
 # This script is very buggy, and produces a lot of duplicates.
@@ -14,12 +16,13 @@ import pandas as pd
 
 # List of sources, I added a variety to see if we can garner some interesting topics.
 sources = ["https://edition.cnn.com/", "https://www.breitbart.com/politics/",
-           'https://slate.com',
-           "https://thehill.com/",
+           'https://slate.com',"https://thehill.com/",
            "https://www.politico.com/","https://www.washingtonpost.com/", "https://www.bbc.com/news",
            'https://www.theguardian.com/international','https://www.latimes.com/',
-           'https://www.cbc.ca/news', "https://www.theglobeandmail.com/", "https://thepostmillennial.com/politics",
-           'https://www.ign.com/news', 'https://www.gamespot.com/news/', 'https://techcrunch.com/']
+           'https://www.cbc.ca/news', "https://www.theglobeandmail.com/", 'https://techcrunch.com/',
+           'https://www.ign.com/news', 'https://www.gamespot.com/news/',
+           'https://globalnews.ca/','https://www.thestar.com/',
+           'https://www.channelnewsasia.com/news/international']
 
 df_articles = pd.DataFrame()
 
@@ -45,24 +48,10 @@ for source in sources:
             print("continuing...")
             continue
 
-
-        #article_extract.download()
-        #print('Initiating Download')
-        #article_extract.parse()
-        #print('Initiating Parse')
-        # Only if you want NLP work from newspaper3k
-        #article_extract.nlp()
-        #print('Initiating nlp')
         print(article_extract.title)
 
-        #temp_df = pd.DataFrame(columns = ['Title', 'Authors',
-                                #      'Text','Summary','Keywords',
-                                #      'published_date','Source'])
         # simpler extract
         temp_df = pd.DataFrame(columns = ['Title','Text','Source'])
-
-
-
 
         temp_df['Title'] = article_extract.title
         temp_df['Text'] = article_extract.text
