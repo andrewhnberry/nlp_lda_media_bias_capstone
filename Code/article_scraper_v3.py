@@ -1,4 +1,4 @@
-#SCRAPER IS BROKEN #Worked before
+#SCRAPER IS BROKEN #Worked before, will fix some other time
 
 # Scraping Articles using newspaper3k package
 # Documentation could be found here: https://newspaper.readthedocs.io/en/latest/
