@@ -1,6 +1,8 @@
 # Scraping Articles using newspaper3k package: Multi-Threading Edition
 # Documentation could be found here: https://newspaper.readthedocs.io/en/latest/
 
+#May be a little bit buggy, it depends on the news site
+
 # Import Newspaper API that I will be using
 import newspaper
 from newspaper import Article
