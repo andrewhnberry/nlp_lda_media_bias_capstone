@@ -5,6 +5,8 @@ This is an updated version of my original and first Data Science project on GitH
 
 I thought it was a very compelling problem to take on, and I was curious to see if I could work towards that. Since there are tonnes of different media outlets there with different agendas, especially in these more polarizing times as described by the various media I personally consume.
 
+I have also written a short article on my project [here](https://andrewhnberry.github.io/articles/2020-04/Media-Bias-w-NLP-&-Topic-Modeling) on my blog. Please do check it out!
+
 #### How to navigate?
 In the Code file, you'll be able to find a few python notebooks/scripts.
 
