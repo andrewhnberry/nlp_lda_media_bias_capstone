@@ -17,12 +17,6 @@ In the Code file, you'll be able to find a few python notebooks/scripts.
 |**Updated - Part 4 - Model Anlaysis**|where I compared my Gensim models and Sklearn models, I also performed a sentiment analysis.|
 
 
-**aticle_scraper_MT_v1.py** is a short script that scrapes certain articles online. It's robust!
-**Updated - Part 1 - Data Cleaning & EDA** goes over a little bit of my data cleaning methodologies and EDA from the data I scrapped online.
-**Updated - Part 2 - NLP preprocessing & LDA Gensim** where I go over some NLP preprocessing, as well as Gensim's version of NLP. I also perform some hyper-parameter tuning, and attempt to explain topic modeling in that notebook.
-**Updated - Part 3 - NLP preprocessing & LDA Modeling SKLearn** is similar to the notebook above, but this time I explored SkLearn's version, I tuned different types of parameters and used a tfidf vectorizer instead.
-**Updated - Part 4 - Model Anlaysis** where I compared my Gensim models and Sklearn models, I also performed a sentiment analysis.
-
 You can find the data i used in the **data folder**. In addition I also pickled all my models and saved my plyDavis visualization in the **lda_models folder**.
 
 #### Is it perfect?
